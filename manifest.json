@@ -23,6 +23,7 @@
     },
     "permissions": [
         "declarativeContent",
-        "https://*/*"
+        "clipboardWrite",
+        "https://mail.google.com/"
     ]
 }
