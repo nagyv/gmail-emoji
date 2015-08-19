@@ -52,9 +52,12 @@ function hideButtons() {
 }
 
 function clear() {
-    $status.innerHTML = 'Clik an icon to copy it.';
-    counter = 0;
-    hideButtons();
+    $status.removeChild($status.childNodes[$status.childNodes.length-1]);
+    if(!$status.hasChildNodes()) {
+        $status.innerHTML = 'Clik an icon to copy it.';
+        hideButtons();
+        counter = 0;
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function(){
