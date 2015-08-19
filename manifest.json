@@ -2,7 +2,7 @@
     "name": "Old Gmail Emoji",
     "description": "A collection of the old-style gmail emojis for easy copy-pasteing.",
     "manifest_version": 2,
-    "version": "0.3",
+    "version": "1.0",
     "icons": { 
         "16": "emoji16.png",
         "48": "emoji48.png",
