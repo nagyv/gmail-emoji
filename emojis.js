@@ -9,9 +9,9 @@ function handleClick(event) {
     }
 
     if(counter > 0) {
-        $status.innerHTML += '<img src="' + event.target.src + '" />'
+        $status.innerHTML += '<img src="' + event.target.src + '" style="background-color: transparent"/>'
     } else {
-        $status.innerHTML = '<img src="' + event.target.src + '" />'
+        $status.innerHTML = '<img src="' + event.target.src + '" style="background-color: transparent"/>'
     }
     counter++;
 
